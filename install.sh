@@ -55,7 +55,7 @@ Comment=One-click remote Jupyter over SSH
 Exec=$APP_DIR/Entangle
 Icon=$ICON
 Terminal=false
-Categories=Development;Science;
+Categories=Development;
 StartupWMClass=Entangle
 EOF
 command -v update-desktop-database >/dev/null && update-desktop-database "$(dirname "$DESKTOP")" 2>/dev/null || true
