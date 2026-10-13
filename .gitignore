@@ -1,0 +1,7 @@
+# Build output (the app is published as a GitHub Release, not committed)
+build/
+dist/
+*.tar.xz
+*.zip
+*.log
+__pycache__/

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b1f3b"/><stop offset="0.55" stop-color="#4b3aa8"/><stop offset="1" stop-color="#b05cf0"/></linearGradient>
+    <linearGradient id="r1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#d9ccff"/></linearGradient>
+    <linearGradient id="r2" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fe3ff"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+    <clipPath id="low"><rect x="0" y="128" width="256" height="128"/></clipPath>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#bg)"/>
+  <circle cx="98" cy="128" r="50" fill="none" stroke="url(#r1)" stroke-width="15"/>
+  <circle cx="158" cy="128" r="50" fill="none" stroke="url(#r2)" stroke-width="15"/>
+  <circle cx="98" cy="128" r="50" fill="none" stroke="url(#r1)" stroke-width="15" clip-path="url(#low)"/>
+</svg>
